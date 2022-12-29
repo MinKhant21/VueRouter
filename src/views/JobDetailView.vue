@@ -5,10 +5,10 @@
 <script>
 export default {
     name:'JobDetail',
+    props:['id'],
     data(){
         return{
-            id:this.$route.params.id
-
+            
         }
     }
 
